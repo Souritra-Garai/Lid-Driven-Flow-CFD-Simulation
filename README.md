@@ -6,8 +6,7 @@ Code requires the following python libraries to be installed -
  - Numpy
  - Matplotlib
  
-The main code to obtain the solution is written in the jupyter notebook - "Project 4 18110166.ipynb"
-
+The main code to obtain the solution is written in the jupyter notebook - Lid_Driven_Cavity.ipynb
 The scripts -
  - Boundary_Conditions.py has methods for defining the boundary velocities and pressures using ghost cells.
  - Discretized_Terms.py has methods to estimate the convection term, diffusion term and pressure gradient terms in the finite volume method approach in a collocated grid.
