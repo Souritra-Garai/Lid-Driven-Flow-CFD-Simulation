@@ -1,5 +1,8 @@
 # Lid-Driven-Flow-CFD-Simulation
 
+Here is the flow of fluid particles close to the steady state -
+![Flow Animation](/Flow_Animation.gif)
+
 Python code for solving Napier Stokes equation using finite volume method in the scenario of Lid driven flow. The Quasi Rhie Chow algorithm has been implemented to arrive at the solution.
 
 Code requires the following python libraries to be installed -
@@ -17,9 +20,6 @@ The scripts -
 The scripts to visualize the solution are -
  - Streamplots.py plots streamlines at steady state of for the the lid driven flow.
  - Flow_Animation.py creates a video animation showing the flow of fluid particles till steady state is reached.
- 
-Here is the flow of fluid particles close to the steady state -
-![Flow Animation](/Flow_Animation.gif)
  
 Here is the streamplot at steady state for a 40 by 40 grid -
 ![Streamplot](/40_cross_40.png)
